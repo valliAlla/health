@@ -12,7 +12,7 @@ we will create features_set and labels list. There are 16322 records in training
 These lists are converted into arrays using numpy array. 
 
 In order to train our LSTM model, we need our data in three dimensional format. Where, the first dimension is number of rows in the dataset, second dimension is number of time steps and last dimension is indicators.
-So here our first dimension is 16322, second dimension is 90 and third dimension is 3.
+So here our first dimension is 16322, second dimension is 90 and third dimension is 4.
 
 DATA SPLITTING:
 
