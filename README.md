@@ -23,10 +23,10 @@ CREATING THE MODEL:
 As the first step in creating the model, a Sequentisal class is instantiated. Later, LSTM layers are added to the created model.
 Input layer and hidden layers are given with relu activation function. Where as, sigmoid activation function is given to the out put layer.
 
-Four hidden layers.Units fro the Input layer is taken as 32 and for the hidden layer 150 is taken. default value is considered for the learning rate.
+Four hidden layers are created.Units fro the Input layer is taken as 32 and for the hidden layer 150 is taken. default learning rate 0.01 is considered.
 Drop out layer with value 0.2 is added to the hidden layers to avoid the overfitting.
 
-While compiling our model, binary_classentrophy is taken as the loss function and rmsprop as optimzer, to optimize the algorithm.
+While compiling our model, binary_classentrophy is taken as the loss function and rmsprop as optimzer, to optimize the algorithm. A default value of 0.9 is taken for beta. 
 
 TRAINIG THE MODEL:
 
